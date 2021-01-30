@@ -8,7 +8,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
  
 };
 
