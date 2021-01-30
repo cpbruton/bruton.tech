@@ -18,10 +18,13 @@ main {
 	text-align: justify;
 }
 
-footer {
+#page-footer {
 	font-size: 75%;
 	padding-top: 2ch;
 	font-style: italic;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 h1,h2,h3 {
@@ -62,3 +65,16 @@ h3 {
 	margin: 1ch 0 0 2ch;
 
 }
+
+article > header {
+	margin-top: 3ch;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#journal-date {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+

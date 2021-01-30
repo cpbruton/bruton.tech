@@ -1,0 +1,13 @@
+---
+layout: base.njk
+tags: journal
+title: untitled
+---
+<article>
+<header>
+  <h2>{{ title }}</h2>
+  <p id="journal-date">{{ page.date.toDateString() }}</p>
+</header>
+{{ content | safe }}
+</article>
+
