@@ -23,6 +23,8 @@ module.exports = function(eleventyConfig) {
       .replace(openSingles, "‘").replace(closeSingles, "’");
   });
 
+  eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("favicon.ico"); 
