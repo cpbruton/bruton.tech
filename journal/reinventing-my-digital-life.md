@@ -1,5 +1,5 @@
 ---
-title: Reinventing my virtual life (or why I'm leaving Facebook)
+title: Reinventing my digital life (or why I’m leaving Facebook)
 layout: journal.njk
 date: 2021-01-31
 ogimage: /img/thought-catalog-tRL_Rkh6D8o-unsplash.jpg
