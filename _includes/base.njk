@@ -1,6 +1,7 @@
 ---
 sitetitle: christopher bruton
 title: base
+ogimage: 
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +11,14 @@ title: base
     <title>{{ title }} : {{ sitetitle }}</title>
     <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Atom feed">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <meta name="description" content="{{ content | truncate(155) }}">
+    <meta property="og:url" content="{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ content | truncate(155) }}">
+    <meta property="og:image" content="{{ ogimage }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="bruton.tech : christopher p. bruton">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
 {% set css %}
