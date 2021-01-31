@@ -32,3 +32,6 @@ Whether you're a friend, family member, someone who followed me on Facebook, or 
 Cheers,  
 Christopher
 
+![A smartphone screen with the Facebook logo being scribbled out with a stylus.](/img/thought-catalog-tRL_Rkh6D8o-unsplash.jpg)
+<span style="font-size: 75%;">Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/s/photos/privacy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
