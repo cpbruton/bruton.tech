@@ -6,8 +6,8 @@ layout: base.njk
 my life. This is obviously very new, and a bit of an experiment to see what I
 enjoy writing about.</p>
 <h2>Journal Entries</h2>
-<ul>
+<ol>
 {%- for post in collections.journal | reverse -%}
   <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {%- endfor -%}
-</ul>
+</ol>
