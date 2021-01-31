@@ -3,6 +3,7 @@ title: Reinventing my virtual life (or why I'm leaving Facebook)
 layout: journal.njk
 date: 2021-01-31
 ogimage: /img/thought-catalog-tRL_Rkh6D8o-unsplash.jpg
+ogdescription: Facebook used to be fun. I joined in 2006 and for many years it was a nice way to interact with and share photos with my friends. There were ads, yes, but...
 ---
 Facebook used to be fun. I joined in 2006 and for many years it was a nice way to interact with and share photos with my friends. There were ads, yes, but they weren't obnoxious. There wasn't as much of an emphasis on outside content, videos, and memes.
 
