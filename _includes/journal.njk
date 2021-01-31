@@ -8,6 +8,6 @@ title: untitled
   <h2>{{ title }}</h2>
   <p id="journal-date">{{ page.date.toDateString() }}</p>
 </header>
-{{ content | safe }}
+{{ content | smartquotes | safe }}
 </article>
 
