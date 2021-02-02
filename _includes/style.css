@@ -84,3 +84,8 @@ article > header {
 img {
 	max-width: 100%;
 }
+
+code {
+	font-size: 13pt;
+	font-family: 'Andale Mono', 'Monaco', 'Courier', monospace; 
+}

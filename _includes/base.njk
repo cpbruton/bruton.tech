@@ -27,6 +27,11 @@ base_url: https://bruton.tech/
     <meta property="og:site_name" content="bruton.tech : christopher bruton">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+{% if highlight %}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/tomorrow-night.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+{% endif %}
 {% set css %}
   {% include "style.css" %}
 {% endset %}
@@ -50,7 +55,7 @@ base_url: https://bruton.tech/
     </main>
 
     <footer id="page-footer">
-        <p>&copy; 2021 Christopher P. Bruton</p>
+        <p>Copyright &copy; 2021 Christopher P. Bruton</p>
     </footer>
 <script data-goatcounter="https://cpb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
