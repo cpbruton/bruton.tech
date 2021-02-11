@@ -28,5 +28,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("favicon.ico"); 
+  eleventyConfig.setDataDeepMerge(true);
 };
 
